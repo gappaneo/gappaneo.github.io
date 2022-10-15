@@ -37,8 +37,8 @@
   </head>
   <!-- start of body -->
   <body>
-    <section style="background-color: #fbf6ef">
-      <div class="container py-5">
+    <section id="about" class="about">
+      <div class="container">
         <div class="row text-center justify-content-center">
           <h1>Welcome to my homepage</h1>
         </div>
@@ -60,30 +60,56 @@
           </div>
         </div>
 
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-7">
+            <img src="./assets/gab.png" class="img-fluid">
+          </div>
+          <div class="col-lg-5 content">
+            <h2>About me</h2>
+            <p class="fst-italic py-3">
+              Hello! My name is Gabriel. I am currently an undergraduate at Singapore Management University, pursuing a Bachelor in Information Systems. Here are a couple of fun facts about myself:
+            </p>
+            <div class="row">
+              <div class="col-lg-10">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>3 Feb 2022</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Favourite waffle flavour:</strong> <span>Chocolate</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Highest number of mosquitoes killed in a day:</strong> <span>12</span></li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+              Over the years I have developed a fondness for art, which is why you might see me dabbling in the art of pencil sketching from time to time - though it is definitely still a work in progress. I have tried painting painting with acrylic and oil paints, but let's just say that I am not the most proficient in those fields.
+            </p>
+            <p class="m-0">
+              If you have seen me in real life, you would probably have noticed that I am relatively skinny. Despite this, I do enjoy eating good food and trying out new stuff whenever I can with my loved ones. After all, having a good meal brings huge comfort to the soul.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+    
+    <section style="background-color: #fbf6ef">
+      <div class="container py-5">
+
         <div class="row">
           <div class="col-lg-4">
             <div class="card mb-4">
               <div class="card-body text-center">
                 <img
-                  src="./assets/gab.png"
+                  src="./assets/vegeta.png"
                   alt="avatar"
-                  class="rounded-circle img-fluid"
+                  class="img-fluid"
                   style="width: 150px"
                 />
-                <h5 class="my-3">Gabriel Neo</h5>
+                <h5 class="my-3">Vegeta</h5>
                 <p class="biography mb-1">
-                  Hey there! My name is Gabriel and I am a Year 2 SCIS student.
-                  Noodles are superior to rice.
+                  This is my favourite anime character from Dragon Ball, Vegeta. 
                 </p>
               </div>
             </div>
-            <div class="destinationvid card mb-4 mb-lg-0">
-              <p>My favourite travel destination</p>
-              <iframe
-                src="https://www.youtube.com/embed/NGxcr_Z8Dmw?autoplay=1&mute=1"
-              >
-              </iframe>
-            </div>
+
           </div>
           <div class="col-lg-8">
             <div class="card mb-4">
@@ -105,7 +131,7 @@
                         style="font-size: 20px; color: rgb(138, 82, 21)"
                       ></i>
                     </button>
-                    <span id="numlikes">0 Likes</span>
+                    <span id="numlikes">0 hearts</span>
                   </div>
                 </div>
               </div>
@@ -124,10 +150,19 @@
                       </button>
                     </p>
                     <p class="mt-4 mb-1" style="font-size: 0.77rem">
-                        <p id="favfood"></p>
+                        <p id="favfood">Steak</p>
                     </p>
-                    <img src="" id="foodimg" class="img-fluid">
+                    <img src="./assets/steak.jpeg" id="foodimg" class="img-fluid" style="height: 110px;">
                   </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="destinationvid card mb-4 mb-lg-0">
+                  <p>My favourite travel destination: Japan</p>
+                  <iframe
+                    src="https://www.youtube.com/embed/NGxcr_Z8Dmw?autoplay=1&mute=1"
+                  >
+                  </iframe>
                 </div>
               </div>
             </div>
@@ -135,6 +170,7 @@
         </div>
       </div>
     </section>
+
     <script src="index.js"></script>
   </body>
 </html>
