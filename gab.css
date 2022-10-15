@@ -1,0 +1,20 @@
+.nav {
+    background-color: #fbf6ef;
+}
+
+.card-body {
+    background-color: #edd9c4;
+}
+
+.destinationvid {
+    text-align: center;
+    background-color: #edd9c4;
+}
+
+.button-like {
+    background-color: #edd9c4;
+}
+
+.button-like:hover {
+    background-color: #f8eddb;
+}
